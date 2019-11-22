@@ -1,15 +1,16 @@
 2019.11.20
 
-v-echarts
-安装
+# v-echarts
+
+1. 安装
 npm i v-charts echarts -S
 
-完整引入
+2. 完整引入
 import VCharts from 'v-charts'
 
 Vue.use(VCharts)
 
-折线图
+3. 折线图
 <template>
   <ve-line :data="chartData"></ve-line>
 </template>
@@ -33,7 +34,9 @@ Vue.use(VCharts)
     }
   }
 </script>
-环形图
+
+4. 环形图
+
 <template>
   <ve-ring :data="chartData"></ve-ring>
 </template>
